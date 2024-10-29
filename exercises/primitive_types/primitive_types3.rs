@@ -8,7 +8,7 @@
 
 
 fn main() {
-    let a = [1,2,3];
+    let a = [1, 2, 3]; //逗号后有一个空格 或者使用[1; 100]指定长度
 
     if a.len() >= 100 {
         println!("Wow, that's a big array!");

@@ -11,8 +11,8 @@ pub fn animal_habitat(animal: &str) -> &'static str {
     } else if animal == "snake" {
         3
     } else {
-        6
-    };
+        -1
+    }; //一般这种情况用 0 或者 -1 表示有误的数据
 
     // DO NOT CHANGE THIS STATEMENT BELOW
     let habitat = if identifier == 1 {

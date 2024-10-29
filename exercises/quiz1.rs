@@ -20,12 +20,12 @@
 
 // Don't modify this function!
 fn calculate_price_of_apples(x: i32) -> i32 {
-    if x<=40 {
-        x*2
+    if x <= 40 {
+        x * 2
     } else {
         x
     }
-}
+} //<=前后有空格  *前后有空格
 #[test]
 fn verify_test() {
     let price1 = calculate_price_of_apples(35);
