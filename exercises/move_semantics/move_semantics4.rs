@@ -23,11 +23,10 @@ fn main() {
 
 // `foo()` does NOT take `vec: Vec<i32>` as argument
 fn foo() -> &mut Vec<i32> {
-    let mut vec = ???
+
 
     vec.push(22);
     vec.push(44);
     vec.push(66);
 
-    ???
 }
