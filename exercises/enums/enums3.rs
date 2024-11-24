@@ -5,10 +5,8 @@
 // Execute `rustlings hint enums3` or use the `hint` watch subcommand for a
 // hint.
 
-
-
 enum Message {
-    ChangeColor(u8,u8,u8),
+    ChangeColor(u8, u8, u8),
     Move(Point),
     Echo(String),
     Quit,
@@ -23,7 +21,7 @@ struct State {
     color: (u8, u8, u8),
     position: Point,
     quit: bool,
-    message: String
+    message: String,
 }
 
 impl State {
@@ -35,7 +33,9 @@ impl State {
         self.quit = true;
     }
 
-    fn echo(&mut self, s: String) { self.message = s }
+    fn echo(&mut self, s: String) {
+        self.message = s
+    }
 
     fn move_position(&mut self, p: Point) {
         self.position = p;

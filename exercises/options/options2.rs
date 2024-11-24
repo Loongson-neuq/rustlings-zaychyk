@@ -3,8 +3,6 @@
 // Execute `rustlings hint options2` or use the `hint` watch subcommand for a
 // hint.
 
-
-
 #[cfg(test)]
 mod tests {
     #[test]
@@ -15,7 +13,6 @@ mod tests {
         if let Some(word) = optional_target {
             assert_eq!(word, target);
         }
-        
     }
 
     #[test]
@@ -33,7 +30,6 @@ mod tests {
             assert_eq!(integer, cursor);
             cursor -= 1;
         }
-        
 
         assert_eq!(cursor, 0);
     }
